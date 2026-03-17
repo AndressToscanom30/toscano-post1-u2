@@ -1,0 +1,1282 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.heapSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 23.016386823530187,
+            "scoreError" : 1.7248974225218403,
+            "scoreConfidence" : [
+                21.291489401008345,
+                24.74128424605203
+            ],
+            "scorePercentiles" : {
+                "0.0" : 20.2279154095275,
+                "50.0" : 22.39056431922812,
+                "90.0" : 26.541928422988246,
+                "95.0" : 26.701018986006858,
+                "99.0" : 26.704976114649682,
+                "99.9" : 26.704976114649682,
+                "99.99" : 26.704976114649682,
+                "99.999" : 26.704976114649682,
+                "99.9999" : 26.704976114649682,
+                "100.0" : 26.704976114649682
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    25.78678235374335,
+                    26.62583354179323,
+                    26.704976114649682,
+                    23.804211000032144,
+                    25.32527920160223,
+                    25.7670704845815,
+                    22.72032569912476,
+                    22.06080293933148,
+                    23.039719524681207,
+                    22.77330268525848
+                ],
+                [
+                    23.036274694853404,
+                    20.80062962962963,
+                    21.908624467077214,
+                    21.11644302022832,
+                    21.76972984218504,
+                    21.386686750477956,
+                    22.051811934243588,
+                    20.2279154095275,
+                    21.641874741750783,
+                    21.779442435832312
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.heapSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 66.78537862318322,
+            "scoreError" : 2.934584228754431,
+            "scoreConfidence" : [
+                63.85079439442879,
+                69.71996285193765
+            ],
+            "scorePercentiles" : {
+                "0.0" : 60.98093175254598,
+                "50.0" : 66.81130035059087,
+                "90.0" : 71.11701408807994,
+                "95.0" : 74.21035478813722,
+                "99.0" : 74.36880551024107,
+                "99.9" : 74.36880551024107,
+                "99.99" : 74.36880551024107,
+                "99.999" : 74.36880551024107,
+                "99.9999" : 74.36880551024107,
+                "100.0" : 74.36880551024107
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    69.2296054859465,
+                    63.673607956770304,
+                    67.72482822188705,
+                    69.45530212765958,
+                    71.19979106816402,
+                    65.63915965025907,
+                    67.43520013177401,
+                    66.2733774726173,
+                    74.36880551024107,
+                    69.32125423728813
+                ],
+                [
+                    66.07761352499183,
+                    68.06573438426986,
+                    70.37202126732328,
+                    64.34610812113422,
+                    60.98093175254598,
+                    61.87882196703382,
+                    63.510909519321395,
+                    66.3827857320202,
+                    67.23981496916153,
+                    62.531899363255164
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.heapSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "2000"
+        },
+        "primaryMetric" : {
+            "score" : 226.36062139729898,
+            "scoreError" : 11.670625076085894,
+            "scoreConfidence" : [
+                214.6899963212131,
+                238.03124647338487
+            ],
+            "scorePercentiles" : {
+                "0.0" : 208.75865522174536,
+                "50.0" : 223.4544520314834,
+                "90.0" : 253.28724448180319,
+                "95.0" : 255.70310020800332,
+                "99.0" : 255.78613053613054,
+                "99.9" : 255.78613053613054,
+                "99.99" : 255.78613053613054,
+                "99.999" : 255.78613053613054,
+                "99.9999" : 255.78613053613054,
+                "100.0" : 255.78613053613054
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    223.86985499872807,
+                    213.84783996072656,
+                    226.31144998707677,
+                    216.16611793611793,
+                    213.2606424717999,
+                    213.39248120300752,
+                    224.92520408163264,
+                    221.04214088744047,
+                    219.01208572140544,
+                    208.75865522174536
+                ],
+                [
+                    216.95013550135502,
+                    231.44714514407684,
+                    234.2877464038359,
+                    255.78613053613054,
+                    223.03904906423875,
+                    219.95718921617575,
+                    254.12552397358598,
+                    225.20822233606557,
+                    240.08208424507657,
+                    245.7427290557579
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.heapSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "4000"
+        },
+        "primaryMetric" : {
+            "score" : 467.1195080326086,
+            "scoreError" : 123.72375272609635,
+            "scoreConfidence" : [
+                343.3957553065123,
+                590.843260758705
+            ],
+            "scorePercentiles" : {
+                "0.0" : 228.65247238295635,
+                "50.0" : 535.6997916666667,
+                "90.0" : 598.4134808439272,
+                "95.0" : 615.4807435392846,
+                "99.0" : 616.3362508614748,
+                "99.9" : 616.3362508614748,
+                "99.99" : 616.3362508614748,
+                "99.999" : 616.3362508614748,
+                "99.9999" : 616.3362508614748,
+                "100.0" : 616.3362508614748
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    599.2261044176706,
+                    591.0998686802363,
+                    560.9602364654636,
+                    543.8658787878788,
+                    537.5182142857143,
+                    511.28151986183076,
+                    529.1755489614243,
+                    556.8156559405941,
+                    560.7360275689223,
+                    616.3362508614748
+                ],
+                [
+                    545.9420702179177,
+                    533.881369047619,
+                    568.8187539332914,
+                    525.8308995327103,
+                    328.4324212893553,
+                    228.65247238295635,
+                    248.32542227311765,
+                    232.73001071811362,
+                    248.44754566210045,
+                    274.3138897637795
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.heapSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "8000"
+        },
+        "primaryMetric" : {
+            "score" : 570.3847177280484,
+            "scoreError" : 49.109468995753936,
+            "scoreConfidence" : [
+                521.2752487322945,
+                619.4941867238023
+            ],
+            "scorePercentiles" : {
+                "0.0" : 505.7936817920735,
+                "50.0" : 551.6116529637505,
+                "90.0" : 686.3810544299728,
+                "95.0" : 705.8735134881658,
+                "99.0" : 706.6337016574586,
+                "99.9" : 706.6337016574586,
+                "99.99" : 706.6337016574586,
+                "99.999" : 706.6337016574586,
+                "99.9999" : 706.6337016574586,
+                "100.0" : 706.6337016574586
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    545.7213358070501,
+                    531.536253776435,
+                    534.7190072639225,
+                    505.7936817920735,
+                    513.9486596736597,
+                    529.0595465393794,
+                    552.9785804816223,
+                    565.5501275510204,
+                    706.6337016574586,
+                    640.9410998552822
+                ],
+                [
+                    552.7617482951023,
+                    556.5832075471698,
+                    519.5260563380282,
+                    550.4615576323988,
+                    548.6595679012346,
+                    625.7683321604504,
+                    570.5050706033376,
+                    617.7362880886427,
+                    691.4299382716049,
+                    547.3805933250927
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.heapSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "16000"
+        },
+        "primaryMetric" : {
+            "score" : 1621.0266602903237,
+            "scoreError" : 646.4299590468236,
+            "scoreConfidence" : [
+                974.5967012435001,
+                2267.4566193371475
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1155.8923673997413,
+                "50.0" : 1285.8248759275841,
+                "90.0" : 3200.2069402166467,
+                "95.0" : 3370.6125286429433,
+                "99.0" : 3378.3974169741696,
+                "99.9" : 3378.3974169741696,
+                "99.99" : 3378.3974169741696,
+                "99.999" : 3378.3974169741696,
+                "99.9999" : 3378.3974169741696,
+                "100.0" : 3378.3974169741696
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1178.6443857331572,
+                    1155.8923673997413,
+                    1164.1606770833334,
+                    1156.2625322997417,
+                    1155.913298565841,
+                    1250.4393258426967,
+                    1334.424480712166,
+                    1271.3541076487252,
+                    1362.3949924127467,
+                    1324.5485925925925
+                ],
+                [
+                    1280.9192034139403,
+                    1285.7191366906475,
+                    1499.8660565723794,
+                    1285.9306151645208,
+                    1332.001329394387,
+                    1241.3952580195257,
+                    2541.7972299168973,
+                    3378.3974169741696,
+                    3222.6996503496503,
+                    2997.772549019608
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.insertionSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 32.498000242300705,
+            "scoreError" : 11.471755958945197,
+            "scoreConfidence" : [
+                21.02624428335551,
+                43.9697562012459
+            ],
+            "scorePercentiles" : {
+                "0.0" : 12.455706657911563,
+                "50.0" : 40.16217813955612,
+                "90.0" : 44.372965011707464,
+                "95.0" : 45.0027497753253,
+                "99.0" : 45.0355775001364,
+                "99.9" : 45.0355775001364,
+                "99.99" : 45.0355775001364,
+                "99.999" : 45.0355775001364,
+                "99.9999" : 45.0355775001364,
+                "100.0" : 45.0355775001364
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    41.71762105584066,
+                    39.99230996600818,
+                    41.24807272004769,
+                    43.288267658771744,
+                    44.37902300391442,
+                    40.87384821827941,
+                    44.31844308184484,
+                    44.05460231868428,
+                    40.33204631310406,
+                    45.0355775001364
+                ],
+                [
+                    16.652131519779168,
+                    12.455706657911563,
+                    14.945443904014208,
+                    13.606242903676128,
+                    16.509076058546786,
+                    16.37391690110366,
+                    15.502097245195941,
+                    41.30948555461304,
+                    37.612803673938004,
+                    39.75328859060403
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.insertionSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 165.78159807616188,
+            "scoreError" : 12.993426219960252,
+            "scoreConfidence" : [
+                152.78817185620164,
+                178.77502429612213
+            ],
+            "scorePercentiles" : {
+                "0.0" : 148.68311045071817,
+                "50.0" : 161.50317884712854,
+                "90.0" : 199.8917339698493,
+                "95.0" : 206.33735747611865,
+                "99.0" : 206.58156108597285,
+                "99.9" : 206.58156108597285,
+                "99.99" : 206.58156108597285,
+                "99.999" : 206.58156108597285,
+                "99.9999" : 206.58156108597285,
+                "100.0" : 206.58156108597285
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    201.6974888888889,
+                    148.68311045071817,
+                    154.67255170056401,
+                    183.63993969849247,
+                    160.17284710017574,
+                    156.56936952413673,
+                    160.43751319029195,
+                    168.17713809700112,
+                    161.15106607929516,
+                    154.8886251907103
+                ],
+                [
+                    154.47547201905087,
+                    163.12455284552846,
+                    164.46012370383846,
+                    156.275758626669,
+                    161.85529161496189,
+                    160.3021647307286,
+                    206.58156108597285,
+                    166.96710771524414,
+                    166.09430287586457,
+                    165.40597638510445
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.insertionSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "2000"
+        },
+        "primaryMetric" : {
+            "score" : 460.902019798329,
+            "scoreError" : 221.73550925588108,
+            "scoreConfidence" : [
+                239.1665105424479,
+                682.6375290542101
+            ],
+            "scorePercentiles" : {
+                "0.0" : 155.63127586206897,
+                "50.0" : 611.3908793092083,
+                "90.0" : 750.0398682656876,
+                "95.0" : 754.5523146532043,
+                "99.0" : 754.5598249801113,
+                "99.9" : 754.5598249801113,
+                "99.99" : 754.5598249801113,
+                "99.999" : 754.5598249801113,
+                "99.9999" : 754.5598249801113,
+                "100.0" : 754.5598249801113
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    675.8779816513761,
+                    710.7121166791324,
+                    658.189010989011,
+                    643.6516150740242,
+                    754.5598249801113,
+                    599.6350346565847,
+                    624.5052253429131,
+                    649.2791723202171,
+                    754.4096184419714,
+                    617.4108611825193
+                ],
+                [
+                    645.0528735632184,
+                    605.3708974358974,
+                    165.40047697670153,
+                    163.53320693391115,
+                    158.77982070662682,
+                    159.9055784015734,
+                    159.6506463608996,
+                    156.4723519163763,
+                    160.0128064914447,
+                    155.63127586206897
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.insertionSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "4000"
+        },
+        "primaryMetric" : {
+            "score" : 1507.1702643286928,
+            "scoreError" : 756.6171884423,
+            "scoreConfidence" : [
+                750.5530758863929,
+                2263.787452770993
+            ],
+            "scorePercentiles" : {
+                "0.0" : 633.0213386348576,
+                "50.0" : 1456.4872958801498,
+                "90.0" : 2431.394876237624,
+                "95.0" : 2476.1295638464603,
+                "99.0" : 2478.4155778894474,
+                "99.9" : 2478.4155778894474,
+                "99.99" : 2478.4155778894474,
+                "99.999" : 2478.4155778894474,
+                "99.9999" : 2478.4155778894474,
+                "100.0" : 2478.4155778894474
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    680.5022032693674,
+                    716.6932584269663,
+                    666.0025069637883,
+                    648.1729308005428,
+                    673.7964160224877,
+                    654.9633447098976,
+                    639.3715528781794,
+                    635.7556077904634,
+                    633.0213386348576,
+                    650.5633764465623
+                ],
+                [
+                    2262.5145496535797,
+                    2196.2813333333334,
+                    2333.769047619048,
+                    2381.4684466019417,
+                    2419.691089108911,
+                    2432.695297029703,
+                    2365.437288135593,
+                    2336.669596199525,
+                    2337.620525059666,
+                    2478.4155778894474
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.insertionSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "8000"
+        },
+        "primaryMetric" : {
+            "score" : 8956.249881089445,
+            "scoreError" : 298.33764103222904,
+            "scoreConfidence" : [
+                8657.912240057216,
+                9254.587522121674
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8420.644915254237,
+                "50.0" : 8861.432142857142,
+                "90.0" : 9564.504955154876,
+                "95.0" : 9620.468020911127,
+                "99.0" : 9623.046153846153,
+                "99.9" : 9623.046153846153,
+                "99.99" : 9623.046153846153,
+                "99.999" : 9623.046153846153,
+                "99.9999" : 9623.046153846153,
+                "100.0" : 9623.046153846153
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    9623.046153846153,
+                    9244.192523364485,
+                    9501.698095238095,
+                    9571.48349514563,
+                    9044.508181818182,
+                    8975.754054054054,
+                    8673.815652173913,
+                    8737.14298245614,
+                    8889.60267857143,
+                    8806.689380530974
+                ],
+                [
+                    8456.287288135592,
+                    9008.924324324324,
+                    8420.644915254237,
+                    8751.254385964912,
+                    9052.573394495414,
+                    8793.953982300885,
+                    8756.021929824561,
+                    8833.261607142857,
+                    8674.763157894737,
+                    9309.379439252336
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.insertionSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "16000"
+        },
+        "primaryMetric" : {
+            "score" : 36203.48620672446,
+            "scoreError" : 2799.121158853393,
+            "scoreConfidence" : [
+                33404.36504787107,
+                39002.60736557785
+            ],
+            "scorePercentiles" : {
+                "0.0" : 30387.863636363636,
+                "50.0" : 36197.50049261084,
+                "90.0" : 39395.50461538461,
+                "95.0" : 43880.0914632107,
+                "99.0" : 44116.078260869566,
+                "99.9" : 44116.078260869566,
+                "99.99" : 44116.078260869566,
+                "99.999" : 44116.078260869566,
+                "99.9999" : 44116.078260869566,
+                "100.0" : 44116.078260869566
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    36196.12857142857,
+                    34547.9,
+                    35929.972413793104,
+                    34662.41379310345,
+                    39396.342307692306,
+                    38318.055555555555,
+                    39387.96538461538,
+                    38975.473076923074,
+                    31024.47272727273,
+                    36198.872413793106
+                ],
+                [
+                    34010.96333333333,
+                    44116.078260869566,
+                    38122.014814814815,
+                    37113.648148148146,
+                    30387.863636363636,
+                    32435.590322580647,
+                    37256.34814814815,
+                    37744.47777777778,
+                    33476.94,
+                    34768.20344827586
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.mergeSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 37.01342476961965,
+            "scoreError" : 1.9677660435923712,
+            "scoreConfidence" : [
+                35.04565872602728,
+                38.98119081321202
+            ],
+            "scorePercentiles" : {
+                "0.0" : 32.528632376395535,
+                "50.0" : 37.071827949605705,
+                "90.0" : 40.101678893409044,
+                "95.0" : 41.64778575737406,
+                "99.0" : 41.726908406652086,
+                "99.9" : 41.726908406652086,
+                "99.99" : 41.726908406652086,
+                "99.999" : 41.726908406652086,
+                "99.9999" : 41.726908406652086,
+                "100.0" : 41.726908406652086
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    38.93094070016671,
+                    36.96649205283188,
+                    35.13931402964495,
+                    35.67197418904779,
+                    34.551747957206636,
+                    38.08399831807139,
+                    36.882142694531716,
+                    32.528632376395535,
+                    34.62312092195577,
+                    37.16645114288316
+                ],
+                [
+                    37.17770273353717,
+                    38.347530893201146,
+                    36.977204756328256,
+                    34.189636670891424,
+                    38.35238474512744,
+                    35.10290454643396,
+                    39.7166901442658,
+                    41.726908406652086,
+                    37.98826269212855,
+                    40.14445542109163
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.mergeSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 91.87977780583262,
+            "scoreError" : 2.961042896859272,
+            "scoreConfidence" : [
+                88.91873490897335,
+                94.84082070269189
+            ],
+            "scorePercentiles" : {
+                "0.0" : 86.71699138638228,
+                "50.0" : 91.61226470490448,
+                "90.0" : 96.78544017590302,
+                "95.0" : 98.84731262804246,
+                "99.0" : 98.95552287966122,
+                "99.9" : 98.95552287966122,
+                "99.99" : 98.95552287966122,
+                "99.999" : 98.95552287966122,
+                "99.9999" : 98.95552287966122,
+                "100.0" : 98.95552287966122
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    91.27926670992862,
+                    94.92807214069676,
+                    90.44971514565194,
+                    89.29505459890802,
+                    87.95949906464352,
+                    96.73254113345521,
+                    86.71699138638228,
+                    92.3741942532503,
+                    93.06812438193604,
+                    87.84528575873873
+                ],
+                [
+                    90.84735478298424,
+                    92.04827059465357,
+                    98.95552287966122,
+                    88.49039232229488,
+                    96.79131784728611,
+                    91.13559486571027,
+                    87.96257352182437,
+                    93.00456796917997,
+                    91.94526269988035,
+                    95.76595405958608
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.mergeSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "2000"
+        },
+        "primaryMetric" : {
+            "score" : 251.5442278901622,
+            "scoreError" : 13.042138116317181,
+            "scoreConfidence" : [
+                238.50208977384503,
+                264.5863660064794
+            ],
+            "scorePercentiles" : {
+                "0.0" : 222.94035175879398,
+                "50.0" : 252.1087586523594,
+                "90.0" : 272.5046126049559,
+                "95.0" : 276.6515966340476,
+                "99.0" : 276.86209777227725,
+                "99.9" : 276.86209777227725,
+                "99.99" : 276.86209777227725,
+                "99.999" : 276.86209777227725,
+                "99.9999" : 276.86209777227725,
+                "100.0" : 276.86209777227725
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    253.0134806003965,
+                    251.82483715661286,
+                    254.7391304347826,
+                    222.94035175879398,
+                    276.86209777227725,
+                    244.31845692475463,
+                    267.45457842248413,
+                    249.59651130337707,
+                    250.87508493771233,
+                    229.52079002079003
+                ],
+                [
+                    232.0712002096436,
+                    231.30921018105485,
+                    272.6520750076852,
+                    259.5462664714495,
+                    260.7807966706302,
+                    271.17745098039217,
+                    260.8093951849677,
+                    252.39268014810594,
+                    238.80010746910264,
+                    250.20005614823134
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.mergeSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "4000"
+        },
+        "primaryMetric" : {
+            "score" : 615.4071228664051,
+            "scoreError" : 32.48079481338012,
+            "scoreConfidence" : [
+                582.9263280530249,
+                647.8879176797852
+            ],
+            "scorePercentiles" : {
+                "0.0" : 538.2158083832335,
+                "50.0" : 615.1965332173511,
+                "90.0" : 665.8902361991775,
+                "95.0" : 710.3347672049589,
+                "99.0" : 712.6365777080063,
+                "99.9" : 712.6365777080063,
+                "99.99" : 712.6365777080063,
+                "99.999" : 712.6365777080063,
+                "99.9999" : 712.6365777080063,
+                "100.0" : 712.6365777080063
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    622.1410751206065,
+                    604.685685483871,
+                    610.6945417789757,
+                    617.1322381930185,
+                    576.0406586447118,
+                    712.6365777080063,
+                    634.0733990147784,
+                    602.2974,
+                    659.4990531682447,
+                    624.2661825726141
+                ],
+                [
+                    566.1833857772184,
+                    613.2608282416836,
+                    629.2058333333333,
+                    590.7906535947712,
+                    620.3522398345968,
+                    538.2158083832335,
+                    589.0214659685864,
+                    628.3272033310201,
+                    602.7178595317725,
+                    666.6003676470589
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.mergeSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "8000"
+        },
+        "primaryMetric" : {
+            "score" : 1398.611732691114,
+            "scoreError" : 76.89754183319594,
+            "scoreConfidence" : [
+                1321.714190857918,
+                1475.5092745243098
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1259.940440165062,
+                "50.0" : 1405.3401984302336,
+                "90.0" : 1507.9987016961054,
+                "95.0" : 1587.371978862047,
+                "99.0" : 1591.4026223776223,
+                "99.9" : 1591.4026223776223,
+                "99.99" : 1591.4026223776223,
+                "99.999" : 1591.4026223776223,
+                "99.9999" : 1591.4026223776223,
+                "100.0" : 1591.4026223776223
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1462.13264,
+                    1293.3099290780142,
+                    1262.8175414364641,
+                    1397.0240853658536,
+                    1437.6271721958926,
+                    1445.6335974643423,
+                    1398.9269406392693,
+                    1275.5941585535465,
+                    1320.3681556195966,
+                    1347.233431085044
+                ],
+                [
+                    1418.4003086419752,
+                    1591.4026223776223,
+                    1259.940440165062,
+                    1411.7534562211981,
+                    1466.438202247191,
+                    1362.2556561085973,
+                    1510.7897520661156,
+                    1365.0154761904762,
+                    1462.69184,
+                    1482.8792483660131
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "edu.sistemas.u2.bench.SortingBenchmark.mergeSort",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 2,
+        "jvm" : "C:\\Users\\tosca\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\21\\bin\\java.exe",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.10",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.10+7-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "n" : "16000"
+        },
+        "primaryMetric" : {
+            "score" : 3145.9316392362934,
+            "scoreError" : 202.38875611807615,
+            "scoreConfidence" : [
+                2943.542883118217,
+                3348.32039535437
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2696.0488372093023,
+                "50.0" : 3180.425497553991,
+                "90.0" : 3418.6454534313725,
+                "95.0" : 3519.8376052188555,
+                "99.0" : 3524.912878787879,
+                "99.9" : 3524.912878787879,
+                "99.99" : 3524.912878787879,
+                "99.999" : 3524.912878787879,
+                "99.9999" : 3524.912878787879,
+                "100.0" : 3524.912878787879
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3171.2624137931034,
+                    3363.290875912409,
+                    3026.458496732026,
+                    3524.912878787879,
+                    3352.531046931408,
+                    3423.4074074074074,
+                    3339.395667870036,
+                    3284.2906810035843,
+                    2931.6301587301587,
+                    2948.1540192926045
+                ],
+                [
+                    3133.2589830508473,
+                    2813.7067278287464,
+                    3231.7940350877193,
+                    3189.588581314879,
+                    3011.5737012987015,
+                    3235.6265017667843,
+                    3124.256462585034,
+                    2741.6574404761905,
+                    3375.7878676470586,
+                    2696.0488372093023
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
