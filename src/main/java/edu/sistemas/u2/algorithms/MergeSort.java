@@ -1,4 +1,4 @@
-package edu.u2.algorithms;
+package edu.sistemas.u2.algorithms;
 
 public final class MergeSort {
     private MergeSort() {
